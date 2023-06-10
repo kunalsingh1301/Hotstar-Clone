@@ -1,0 +1,10 @@
+*{
+    overflow-x: hidden;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    background: url('../Assets/home-background.png') fixed no-repeat ;
+    background-size: cover;
+}

@@ -1,0 +1,47 @@
+
+.header{
+    
+    height: 3em;
+    width: 100vw;
+    background-color: #000000;
+    color: blue;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scrolled{
+    height: 3em;
+    width: 100vw;
+    background-color: #000000;
+    color: blue;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s ease-in-out;
+}
+
+.img{
+    height: 3em;
+    width: 4em;
+}
+
+.button{
+    border-color: aliceblue;
+    background-color: #000000;
+    color: aliceblue;
+    /* padding: 0px; */
+    height: 2em;
+    margin-right: 3em;
+    width: 5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+}
