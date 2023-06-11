@@ -1,0 +1,35 @@
+.l1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.l2{
+    display: flex;
+    justify-content: space-between;
+    margin :10px;
+    padding: 10px;
+}
+
+.l3{
+    /* font-weight: bold; */
+    color:#E1E6F0;
+    font-size: 20px;
+}
+
+.l4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    color:#8F98B2;
+    font-size: 20px;
+}
+
+.l22{
+    margin :10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color:#8F98B2;
+}
